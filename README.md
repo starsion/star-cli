@@ -4,4 +4,5 @@
 
 ## what's this
 
-this is a react template cli,and the building
+this is a react template cli
+building..
