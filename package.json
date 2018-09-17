@@ -1,6 +1,6 @@
 {
   "name": "star-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "this is a  cli for quick start with react",
   "main": "index.js",
   "author": "starsion",
@@ -8,6 +8,13 @@
   "bin": {
     "star-cli": "./index.js"
   },
+  "keywords": [
+    "star-cli",
+    "react",
+    "star",
+    "cli",
+    "react-cli"
+  ],
   "dependencies": {
     "commander": "^2.18.0",
     "git-clone": "^0.1.0",
