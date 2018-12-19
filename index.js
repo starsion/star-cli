@@ -10,7 +10,7 @@ const package = require("./package.json")
 program
     .version(package.version)
 program
-    .command('* <project>')
+    .command('init <project>','初始化一个项目，project为自定义的项目名称')
     .action(function (project) {
         if (project) {
             let pwd = shell.pwd()
@@ -47,7 +47,8 @@ program
                     (err) => { log.error(err) }
                 )
         } else {
-            log.error('Please enter：my-test-cli project')
+            log.error('请输入你的项目名称')
+            console.log('请输入你的项目名称')
         }
     })
 program.parse(process.argv)

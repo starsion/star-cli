@@ -1,6 +1,6 @@
 {
   "name": "star-cli",
-  "version": "1.0.2",
+  "version": "0.0.3",
   "description": "this is a  cli for quick start with react",
   "main": "index.js",
   "author": "starsion",
